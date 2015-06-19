@@ -20,3 +20,10 @@ Redfish可扩展平台管理的应用程序接口（“Redfish”）是一种新
 |操作|映射了通用CRUD操作的HTTP请求方法。它们是POST，GET，PUT/PATCH，HEAD和DELETE|
 |OData|开放数据协议，定义参见[OData-Protocol]("https://en.wikipedia.org/wiki/Open_Data_Protocol")|
 |OData服务文档|一种资源的名字，它提供了根服务的相关信息。服务文档提供了一种标准的格式通过服务来枚举已发布的资源。它可以使一般的超媒体驱动的OData客户端能够导航到Redfish服务的资源上|
+|Redfish警告接收器|从一个Redfish服务接收警告信息。该功能独立于被管系统，它是一个特殊的软件运行在远端系统上。|
+|Redfish客户端|它可以与Redfish服务通信，并且可以访问服务的一个或多个资源，或者功能。|
+|Redfish模式|模式是为了定义Redfish资源。它被定义成可以根据OData模式的标签直接转换成一个JSON的表现模式|
+|Redfish服务|也被称为服务。一个实现了协议，资源以及能够发布一个Redfish模式实例的功能集合。它可以关联到一个或多个被管系统|
+|Redfish服务入口点|也被称为服务入口点。该接口通过一个特殊的Redfish服务实例来访问。一个Redfish服务可能有不止一个的服务入口点。|
+|请求|从一个客户端到服务器端的消息。它由请求行（包含操作），请求头，一个空行和一个可选消息体。|
+|资源||
